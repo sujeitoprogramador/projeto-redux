@@ -1,0 +1,41 @@
+
+header{
+  width: 100%;
+  background: #FFF;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.content{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content span{
+  color: #9a5efa;
+}
+
+.logout{
+  background-color: #D60E0E;
+  padding: 8px 24px;
+  border:0;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.login{
+  background-color: #3366FF;
+  padding: 8px 24px;
+  border:0;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: bold;
+}
